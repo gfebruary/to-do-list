@@ -11,19 +11,14 @@
   background-color: #f4f4f4;
 }
 .clean-up {
-  width: 50px; 
-  height: 40px; 
-  border: none; 
+  width: 50px;
+  height: 40px;
+  border: none;
   margin-left: -1rem;
   background-color: transparent;
   background-size: 50%;
   background-repeat: no-repeat;
-  cursor: pointer; 
-}
-
-.clean-up:hover {
-  color: white;
-  background-color: red;
+  cursor: pointer;
 }
 
 h1 {
@@ -32,15 +27,17 @@ h1 {
   margin: auto;
   text-align: center;
 }
+
+h3 {
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  word-spacing: 4px;
+  margin-left: 5rem;
+}
 .add {
   border: none;
   background-color: transparent;
   color: blue;
-  padding-right: -5px;
-}
-.add:hover {
-  color: #fff;
-  background-color: blue;
 }
 
 button {
@@ -49,27 +46,21 @@ button {
   cursor: pointer;
 }
 #todo-input {
-  margin : 0 0 0 0rem;
+  margin: 0 0 0 0rem;
   border: none;
   background-color: transparent;
 }
 
 ul {
-  /* background-color: rgba(255, 255, 255, 0); */
   background: transparent;
   margin: 1.5rem auto 1.5rem 8rem;
-  
 }
 
 li {
-  &:first-child{
-    margin-top: 70px;
-  }
-  /* background-color: rgba(255, 255, 255, 0); */
   list-style: none;
   background: transparent;
   padding: 0.1rem;
-  margin: 19px 0 0 -2rem;
+  margin: 21px 0 0 -2rem;
   cursor: pointer;
 }
 
@@ -77,7 +68,6 @@ li {
   background-image: url(./img/notebook-background.jpg);
 
   margin: 1rem auto;
-  /* background-color: #d80b0b; */
   padding: 3rem;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -93,7 +83,6 @@ li {
   justify-content: center;
 }
 
-
 .delete {
   background: transparent;
   color: red;
@@ -102,10 +91,10 @@ li {
   left: 1rem;
 }
 
-.delete:hover {
+/* .delete:hover {
   color: #fff;
   background-color: red;
-}
+} */
 .edit {
   background: transparent;
   color: orange;
@@ -114,10 +103,10 @@ li {
   left: 1rem;
 }
 
-.edit:hover {
+/* .edit:hover {
   color: #000;
   background-color: yellow;
-}
+} */
 
 .update {
   background: transparent;
